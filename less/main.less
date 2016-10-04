@@ -18,9 +18,26 @@ body{
 }
 
 // Typography
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 35px;
 	letter-spacing: 1px;
+	text-align: center;
+}
+
+h2 {
+			font-size: 4.5rem;
+			font-weight: 300;
+			line-height: 0px;
+			color: @green;
+}
+
+p {
+	text-align: center;
+	font-size: small;
+  font-weight: 300;
+  color: @dark;
+  margin-left: 102px;
+	margin-right: 102px;
 }
 /*Navbar*/
 .navbar-brand {
@@ -132,12 +149,14 @@ h1, h2, h3, h4, h5, h6{
 			font-size: 4.5rem;
 			font-weight: 300;
 			line-height: 0px;
+			margin-top: 31px;
 		}
 		p {
-			font-weight: lighter;
-			font-size: 18px;
+			color: @green;
+			margin: 0px;
+			font-size: 15px;
 		}
-	}
+}
 
 	.intro-body{
 	margin-bottom: 30px;
@@ -150,18 +169,29 @@ h1, h2, h3, h4, h5, h6{
 			font-weight: lighter;
 			font-size: 18px;
 		}
-		p {
-	    margin-left: 102px;
-	    margin-right: 102px;
-	    font-size: small;
-	    color: @dark;
-		}
 	}
 	.intro-btn {
 		background-color: @green;
 		color: @light;
 		font-size: small;
+		font-weight: 300;
 	}
 }
 
+.sustainable {
+	margin-top: 190px;
+	margin-bottom: 10px;
+	line-height: 17px;
+
+	.icon {
+		text-align: center;
+		margin-top: 50px;
+		line-height: 65px;
+		p {
+		color: @green;
+		font-size: 15px;
+		}
+	}
+
+}
 

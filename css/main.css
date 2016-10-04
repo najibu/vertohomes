@@ -6740,6 +6740,21 @@ h5,
 h6 {
   margin: 0 0 35px;
   letter-spacing: 1px;
+  text-align: center;
+}
+h2 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 0px;
+  color: #94c93d;
+}
+p {
+  text-align: center;
+  font-size: small;
+  font-weight: 300;
+  color: #333333;
+  margin-left: 102px;
+  margin-right: 102px;
 }
 /*Navbar*/
 .navbar-brand {
@@ -6840,10 +6855,12 @@ h6 {
   font-size: 4.5rem;
   font-weight: 300;
   line-height: 0px;
+  margin-top: 31px;
 }
 .intro .infor p {
-  font-weight: lighter;
-  font-size: 18px;
+  color: #94c93d;
+  margin: 0px;
+  font-size: 15px;
 }
 .intro .intro-body {
   margin-bottom: 30px;
@@ -6856,14 +6873,23 @@ h6 {
   font-weight: lighter;
   font-size: 18px;
 }
-.intro .intro-body p {
-  margin-left: 102px;
-  margin-right: 102px;
-  font-size: small;
-  color: #333333;
-}
 .intro .intro-btn {
   background-color: #94c93d;
   color: #ffffff;
   font-size: small;
+  font-weight: 300;
+}
+.sustainable {
+  margin-top: 190px;
+  margin-bottom: 10px;
+  line-height: 17px;
+}
+.sustainable .icon {
+  text-align: center;
+  margin-top: 50px;
+  line-height: 65px;
+}
+.sustainable .icon p {
+  color: #94c93d;
+  font-size: 15px;
 }
