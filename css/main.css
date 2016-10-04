@@ -6739,7 +6739,6 @@ h4,
 h5,
 h6 {
   margin: 0 0 35px;
-  text-transform: uppercase;
   letter-spacing: 1px;
 }
 /*Navbar*/
@@ -6762,6 +6761,7 @@ h6 {
 }
 .navbar-custom a {
   color: #ffffff;
+  margin-bottom: 12px;
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -6802,7 +6802,7 @@ h6 {
   background-color: transparent;
 }
 /* Landing page */
-.intro {
+.large {
   display: table;
   width: 100%;
   height: auto;
@@ -6815,15 +6815,55 @@ h6 {
   -o-background-size: cover;
   background-size: cover;
 }
-.intro-body {
+.large-body {
   display: block;
   vertical-align: middle;
 }
-.intro-body #logo2 {
+.large-body #logo2 {
   width: 12%;
   height: 12%;
   padding-top: 150px;
   padding-bottom: 138px;
   display: block;
   margin: 0 auto;
+}
+/* Intro section */
+.intro {
+  text-align: center;
+  margin-top: 65px;
+  color: #94c93d;
+}
+.intro .infor {
+  margin-top: 65px;
+}
+.intro .infor h2 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 0px;
+}
+.intro .infor p {
+  font-weight: lighter;
+  font-size: 18px;
+}
+.intro .intro-body {
+  margin-bottom: 30px;
+}
+.intro .intro-body h1 {
+  font-weight: 300;
+  font-size: 3em;
+}
+.intro .intro-body h2 {
+  font-weight: lighter;
+  font-size: 18px;
+}
+.intro .intro-body p {
+  margin-left: 102px;
+  margin-right: 102px;
+  font-size: small;
+  color: #333333;
+}
+.intro .intro-btn {
+  background-color: #94c93d;
+  color: #ffffff;
+  font-size: small;
 }

@@ -2,7 +2,7 @@
 
 @dark: #333333;
 @light: #FFFFFF;
-@green: #008000;
+@green: #94C93D;
 
 html{
 	width: 100%;
@@ -20,7 +20,6 @@ body{
 // Typography
 h1, h2, h3, h4, h5, h6{
 	margin: 0 0 35px;
-	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 /*Navbar*/
@@ -45,6 +44,7 @@ h1, h2, h3, h4, h5, h6{
 
 .navbar-custom a{
 	color: @light;
+	margin-bottom: 12px;
 }
 
 .navbar-custom .nav li a{
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* Landing page */
-.intro{
+.large{
 	display: table;
 	width: 100%;
 	height: auto;
@@ -105,12 +105,12 @@ h1, h2, h3, h4, h5, h6{
 	background-size: cover;
 }
 
-.intro-body{
+.large-body{
 	display: block;
 	vertical-align: middle;
 }
 
-.intro-body #logo2 {
+.large-body #logo2 {
     width: 12%;
     height: 12%;
     padding-top: 150px;
@@ -118,3 +118,50 @@ h1, h2, h3, h4, h5, h6{
     display: block;
     margin: 0 auto;
 }
+
+/* Intro section */
+.intro {
+	text-align: center;
+	margin-top: 65px;
+	color: @green;
+
+	.infor {
+		margin-top: 65px;
+
+		h2 {
+			font-size: 4.5rem;
+			font-weight: 300;
+			line-height: 0px;
+		}
+		p {
+			font-weight: lighter;
+			font-size: 18px;
+		}
+	}
+
+	.intro-body{
+	margin-bottom: 30px;
+
+		h1 {
+			font-weight: 300;
+			font-size: 3em;
+		}
+		h2 {
+			font-weight: lighter;
+			font-size: 18px;
+		}
+		p {
+	    margin-left: 102px;
+	    margin-right: 102px;
+	    font-size: small;
+	    color: @dark;
+		}
+	}
+	.intro-btn {
+		background-color: @green;
+		color: @light;
+		font-size: small;
+	}
+}
+
+
