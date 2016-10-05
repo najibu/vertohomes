@@ -6748,6 +6748,12 @@ h2 {
   line-height: 0px;
   color: #94c93d;
 }
+h4 {
+  color: #94c93d;
+  font-weight: 300;
+  text-align: left;
+  margin-bottom: 12px;
+}
 p {
   text-align: center;
   font-size: small;
@@ -6877,7 +6883,7 @@ p {
   background-color: #94c93d;
   color: #ffffff;
   font-size: small;
-  font-weight: 300;
+  font-weight: 400;
 }
 /* Sustainable Section*/
 .sustainable {
@@ -6898,6 +6904,9 @@ p {
 .vesta {
   text-align: center;
   margin-top: 100px;
+}
+.vesta .container {
+  margin-bottom: 14px;
 }
 .vesta img {
   margin-bottom: 60px;
@@ -6925,4 +6934,22 @@ p {
 .towan-heights .carousel-text {
   color: #ffffff;
   padding-top: 32px;
+}
+.contact-us {
+  text-align: left;
+  margin-top: 47px;
+}
+.contact-us .tel {
+  margin-top: 31px;
+}
+.contact-us .read-more {
+  color: #94c93d;
+  text-decoration: none;
+}
+/* Footer */
+footer {
+  margin-top: 10px;
+  padding-top: 30px;
+  height: 80px;
+  text-align: center;
 }
