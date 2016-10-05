@@ -6873,12 +6873,13 @@ p {
   font-weight: lighter;
   font-size: 18px;
 }
-.intro .intro-btn {
+.intro-btn {
   background-color: #94c93d;
   color: #ffffff;
   font-size: small;
   font-weight: 300;
 }
+/* Sustainable Section*/
 .sustainable {
   margin-top: 190px;
   margin-bottom: 10px;
@@ -6892,4 +6893,25 @@ p {
 .sustainable .icon p {
   color: #94c93d;
   font-size: 15px;
+}
+/* Vesta Section */
+.vesta {
+  text-align: center;
+  margin-top: 190px;
+}
+.vesta img {
+  margin-bottom: 60px;
+}
+.vesta .mobile-img {
+  width: 100%;
+  height: auto;
+  background: url(../images/vesta-back@2x.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.vesta .mobile-img .vesta-img {
+  margin-bottom: -1px;
+  margin-top: 52px;
 }
