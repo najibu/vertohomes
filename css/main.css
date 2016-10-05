@@ -6897,7 +6897,7 @@ p {
 /* Vesta Section */
 .vesta {
   text-align: center;
-  margin-top: 190px;
+  margin-top: 100px;
 }
 .vesta img {
   margin-bottom: 60px;
@@ -6914,4 +6914,15 @@ p {
 .vesta .mobile-img .vesta-img {
   margin-bottom: -1px;
   margin-top: 52px;
+}
+/* Mycarousel */
+.towan-heights {
+  margin-top: 10px;
+}
+.towan-heights .carousel-caption {
+  padding-bottom: 283px;
+}
+.towan-heights .carousel-text {
+  color: #ffffff;
+  padding-top: 32px;
 }
